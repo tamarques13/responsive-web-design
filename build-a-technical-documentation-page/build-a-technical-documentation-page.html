@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <nav id="navbar">
+    <header>
+      <h1>FrontEnd Technical Document</h1>
+      
+      <a class="nav-link" href="#HTML_CSS">HTML CSS</a>
+      <a class="nav-link" href="#JavaScript">JavaScript</a>
+      <a class="nav-link" href="#React">React</a>
+      <a class="nav-link" href="#Angular">Angular</a>
+      <a class="nav-link" href="#Bootstrap">Bootstrap</a>
+      
+    </header>
+    </nav>
+     </div>
+<main id="main-doc">
+  <section class="main-section" id="HTML_CSS">
+    <header><h2>HTML CSS</h2>
+    </header>
+    <p>Cascading Style Sheets (CSS) is used to format the layout of a webpage.</p>
+    <p>
+      With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are
+      positioned and laid out, what background images or background colors are to be used, different displays for
+      different devices and screen sizes, and much more!</p>
+    <div class="code-section">
+    <li>Example code:</li>
+    
+    <code>
+      <h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+     </code>
+     </div>
+  </section>
+  <hr>
+  <section class="main-section" id="JavaScript">
+    <header><h2>JavaScript<h2>
+    </header>
+    <p>JavaScript is the world's most popular programming language.</p>
+    <p>JavaScript is a versatile programming language primarily used for creating interactive and dynamic content on web
+      pages. It is essential for front-end development, enabling functionalities like form validation, animations, and
+      real-time updates. JavaScript can also be used on the server side with frameworks like Node.js, making it a
+      full-stack development tool.</p>
+    <div class="code-section">
+    <li>Example code:</li>
+    
+    <code>
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "JavaScript can change HTML content."'>Reverse!</button>
+
+</code>
+</div>
+  </section>
+  <hr>
+  <section class="main-section" id="React">
+    <header><h2>React</h2>
+    </header>
+    <p>React is a JavaScript library for building user interfaces.</p>
+    <p>React is a popular JavaScript library developed by Facebook for building user interfaces, especially single-page applications. It allows developers to create reusable UI components, making the development process more efficient and scalable. React's virtual DOM improves performance by updating only the necessary parts of the web page. Its component-based architecture enhances code maintainability and readability.</p>
+    <div class="code-section">
+    <li>Example code:</li>
+    <code>import React from "react";</br>
+<code>import ReactDOM from "react-dom/client";</code></br>
+
+<code>function Hello(props) {</code></br>
+<span class="code-space">return Hello World!;</span></br>
+<code>}</code></br>
+
+<code>const container = document.</code></br>
+<code>getElementById('root');</code></br>
+<code>const root = ReactDOM.createRoot(container);</code></br>
+<code>root.render(Hello />);</code></br></code>
+</div>
+  </section>
+  <hr>
+  <section class="main-section" id="Angular">
+    <header><h2>Angular</h2>
+    </header>
+    <p>AngularJS extends HTML with new attributes.
+
+AngularJS is perfect for Single Page Applications (SPAs).</p>
+    <p>Angular is a robust front-end web application framework developed by Google, designed for building dynamic and scalable single-page applications. It uses TypeScript, a superset of JavaScript, and follows the MVC (Model-View-Controller) architecture. Angular's features include two-way data binding, dependency injection, and a comprehensive set of tools and libraries, which streamline development and enhance performance.</p>
+    <div class="code-section">
+    <li>Example code:</li>
+     <code>src="../angular.min.js"</br>
+<code>div ng-app=""</code></br>
+ <span class="code-space"> p Name : input type="text" ng-model="name" /p </span></br>
+<span class="code-space">  h1 Hello {{name}} /h1</span> </br>
+<code>/div</code>
+</code>
+</div>
+  </section>
+  <hr>
+  <section class="main-section" id="Bootstrap">
+    <header><h2>Bootstrap</h2>
+    </header>
+    <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.</p>
+    <p>Bootstrap is a popular open-source framework for developing responsive and mobile-first websites. It provides a collection of CSS and JavaScript components, including grid systems, buttons, navigation, and forms, which simplify and accelerate web design. Developed by Twitter, Bootstrap ensures consistency across different browsers and devices, making it a go-to choice for front-end developers.</p>
+   <div class="code-section">
+    <li>Example code:</li>
+    
+    <code>div class="container"</br>
+  <span class="code-space">div class="row"</br>
+ <span class="code-space double">   div class="col-sm-4"</br>
+ <span class="code-space triple">     h3 Column 1 /h3 </br>
+ <span class="code-space triple">     p Lorem ipsum dolor.. /p</br>
+ <span class="code-space double">   /div</br>
+ <span class="code-space double">   div class="col-sm-4"</br>
+  <span class="code-space triple">    h3 Column 2 /h3</br>
+  <span class="code-space triple">    p Lorem ipsum dolor.. /p</br>
+ <span class="code-space double">   /div</br>
+  <span class="code-space double">  div class="col-sm-4"</br>
+  <span class="code-space triple">    h3 Column 3 /h3</br>
+  <span class="code-space triple">    p Lorem ipsum dolor.. /p</br>
+  <span class="code-space double">  /div</br>
+ <span class="code-space"> /div</br>
+<code>/div</code></br>
+</code>
+</div>
+  </section>
+</main>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Thank you for helping in making our platform better. Your help means a lot.</p>
+  <form id="survey-form">
+    <section>
+      <label id="name-label" for="name">Name <input required id="name" type="text" placeholder="Enter your name"></label>
+      <label id="email-label" for="email"> Email <input required id="email" type="email" placeholder="Enter your email"></label>
+      <label id="number-label" for="number">Number <input required id="number" type="number" max="100" min="1" placeholder="Enter your number"></label>
+    </section>
+    <section>
+      <legend>How did you hear about us? </legend>
+      <label for="dropdown">
+         <select id="dropdown">
+            <option>(Select One)</option>
+            <option>FreeCodeCamp Website</option> 
+            <option>Social Media</option> 
+            <option>Other</option>  
+         </select>
+      </label>
+    </section>
+    <fieldset>
+      <legend>How would you rate this service? (Required)</legend>
+      <label id="Satisfactory-label" for="Satisfactory"><input checked class="inline" id="Satisfactory" type="radio" value="good" name="satisfactory-neutral-unsatisfactory"> Satisfactory</label>
+      <label id="Unsatisfactory-label" for="Unsatisfactory"><input class="inline" id="Unsatisfactory" type="radio" value="bad" name="satisfactory-neutral-unsatisfactory" > Unsatisfactory</label>
+    </fieldset>
+    <section>
+      <legend>Do you think this service is suitable for:</legend>
+      <label><input name="prefer" class="inline" value="university" type="checkbox">Universities</label>
+      <label><input name="prefer" class="inline" value="company" type="checkbox">Companies</label>
+      <label><input name="prefer" class="inline" value="other" type="checkbox">Other</label>
+    </section>
+    <section>
+      <legend>Aditional Information</legend>
+      <label for="addInfo"><textarea id="addInfo" name="addInfo" rows="4" cols="50" placeholder="Any additional information will be appreciated!" ></textarea>
+      </label>
+
+    </section>
+    <section>
+      <label for="terms-and-conditions"><input class="inline"id="terms-and-conditions" type="checkbox" value="accepted" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <label for="submit"><input id="submit" value="Submit" type="submit" ></label>
+    </section>
+
+  </form>
+</body>
+
+</html>
